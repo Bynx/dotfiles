@@ -26,6 +26,14 @@ call plug#end()
 
 
 
+" Decrease tab size
+set tabstop=4
+
+
+
+
+
+
 " SHOW LINE NUMBERS
 set number
 
