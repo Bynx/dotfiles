@@ -122,7 +122,7 @@ fi
 # Set up alias for browser-sync
 alias serve="browser-sync start -s -f . --no-notify --host 127.0.0.1 --port 8080"
 
-alias config='/usr/bin/git --git-dir=/home/bynx/dotfiles --work-tree=/home/bynx'
+alias config='/usr/bin/git --git-dir=/home/$USER/dotfiles --work-tree=/home/$USER'
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
