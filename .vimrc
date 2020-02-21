@@ -19,10 +19,12 @@ call plug#begin()
 Plug 'pangloss/vim-javascript'
 Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
 Plug 'mattn/emmet-vim'
+Plug 'takac/vim-hardtime'
 call plug#end()
 
 
-
+" Use HardTime
+let g:hardtime_default_on = 1
 
 
 " Auto expander for bracket pairs on {<CR>
