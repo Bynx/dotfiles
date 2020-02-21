@@ -25,16 +25,8 @@ call plug#end()
 
 
 
-
-
-" Auto pairs for "'([{
-" Includes auto expander for bracket pairs on {<CR>
-" Includes auto expander and closer on {;<CR>
-inoremap " ""<left>
-inoremap ' ''<left>
-inoremap ( ()<left>
-inoremap [ []<left>
-inoremap { {}<left>
+" Auto expander for bracket pairs on {<CR>
+" Auto expander and closer on {;<CR>
 inoremap {<CR> {<CR>}<ESC>O
 inoremap {;<CR> {<CR>};<ESC>O
 
@@ -44,7 +36,9 @@ inoremap {;<CR> {<CR>};<ESC>O
 
 
 " Decrease tab size
-set tabstop=4
+set tabstop=2
+set shiftwidth=2
+set autoindent
 
 
 
