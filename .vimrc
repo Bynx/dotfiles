@@ -23,6 +23,12 @@ Plug 'takac/vim-hardtime'
 call plug#end()
 
 
+
+" Colorscheme
+colorscheme delek
+
+
+
 " Use HardTime
 let g:hardtime_default_on = 1
 
