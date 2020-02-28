@@ -30,15 +30,13 @@ colorscheme delek
 
 
 " Use HardTime
-let g:hardtime_default_on = 1
+let g:hardtime_default_on = 0
 
 
 " Auto expander for bracket pairs on {<CR>
 " Auto expander and closer on {;<CR>
 inoremap {<CR> {<CR>}<ESC>O
 inoremap {;<CR> {<CR>};<ESC>O
-
-
 
 
 

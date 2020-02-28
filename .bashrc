@@ -131,3 +131,11 @@ alias config='/usr/bin/git --git-dir=/home/$USER/dotfiles --work-tree=/home/$USE
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+
+# Creating alias for grepping recursively minus the .git and node_modules folders
+alias grepr='grep -R --exclude-dir={node_modules,.git}'
+
+
+# Creating alias for grepping for todos (minus the node_modules and .git folder)
+alias todos="grep -R -i --exclude-dir={node_modules,.git} -E -- 'todo|to do' ."
