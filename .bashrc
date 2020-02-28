@@ -122,8 +122,12 @@ fi
 # Set up alias for browser-sync
 alias serve="browser-sync start -s -f . --no-notify --host 127.0.0.1 --port 8080"
 
+
+# Set up alias for dotfiles bare git repo
 alias config='/usr/bin/git --git-dir=/home/$USER/dotfiles --work-tree=/home/$USER'
 
+
+# Setting up nvm
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
