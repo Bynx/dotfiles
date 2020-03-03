@@ -139,3 +139,15 @@ alias grepr='grep -R --exclude-dir={node_modules,.git}'
 
 # Creating alias for grepping for todos (minus the node_modules and .git folder)
 alias todos="grep -R -i --exclude-dir={node_modules,.git} -E -- 'todo|to do' ."
+
+
+
+
+#Added for X
+#-----------------------------
+#Export Display
+export DISPLAY=:0.0
+
+#Force rendering on "windows side"
+export LIBGL_ALWAYS_INDIRECT=1
+#-----------------------------

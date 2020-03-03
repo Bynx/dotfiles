@@ -42,6 +42,9 @@ inoremap {;<CR> {<CR>};<ESC>O
 
 
 
+" Set runtime path for node tools
+set runtimepath^=~/.vim/bundle/node
+
 
 " Decrease tab size
 set tabstop=2
