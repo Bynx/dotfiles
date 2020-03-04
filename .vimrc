@@ -213,6 +213,9 @@ set makeprg=bundle\ exec\ rspec\ -f\ QuickfixFormatter
 
 
 
+" SHOW FILE PATH
+set ls=2
+
 
 
 "                          THANK YOU!
