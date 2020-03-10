@@ -20,6 +20,8 @@ Plug 'pangloss/vim-javascript'
 Plug 'mattn/emmet-vim'
 Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
 Plug 'takac/vim-hardtime'
+Plug 'moll/vim-node'
+Plug 'vim-ruby/vim-ruby'
 call plug#end()
 
 " Running prettier before saving async:
