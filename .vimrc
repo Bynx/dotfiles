@@ -44,6 +44,11 @@ inoremap {;<CR> {<CR>};<ESC>O
 
 
 
+" Mapping auto indenting to F7
+map <F7> gg=G<C-o><C-o>
+
+
+
 " Set runtime path for node tools
 set runtimepath^=~/.vim/bundle/node
 
