@@ -22,14 +22,22 @@ Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
 Plug 'takac/vim-hardtime'
 Plug 'moll/vim-node'
 Plug 'vim-ruby/vim-ruby'
+Plug 'posva/vim-vue'
 call plug#end()
+
+
+
 
 " Running prettier before saving async:
 let g:prettier#autoformat = 0
 autocmd BufWritePre *.js,*.json,*.css,*.scss,*.less,*.graphql PrettierAsync
 
+
+
+
 " Colorscheme
 colorscheme delek
+
 
 
 
