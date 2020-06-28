@@ -1,0 +1,9 @@
+rofi.width: 100
+rofi.lines: 10
+rofi.padding: 1000
+rofi.eh: 2
+rofi.bw: 0
+rofi.opacity: 85
+rofi.color-normal: #2f343f, #f3f4f5, #2f343f, #2f343f, #9575cd
+rofi.color-window: #2f343f, #2f343f, #2f343f
+rofi.font: System San Francisco Display 18

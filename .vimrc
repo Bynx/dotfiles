@@ -23,7 +23,14 @@ Plug 'takac/vim-hardtime'
 Plug 'moll/vim-node'
 Plug 'vim-ruby/vim-ruby'
 Plug 'posva/vim-vue'
+Plug 'francoiscabrol/ranger.vim'
 call plug#end()
+
+
+
+
+" Ranger.vim Settings
+let g:ranger_replace_netrw = 1 " open ranger when vim open a directory
 
 
 
@@ -36,7 +43,7 @@ autocmd BufWritePre *.js,*.json,*.css,*.scss,*.less,*.graphql PrettierAsync
 
 
 " Colorscheme
-colorscheme delek
+colorscheme desert
 
 
 
