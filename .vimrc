@@ -17,7 +17,7 @@ if empty(glob('~/.vim/autoload/plug.vim'))
 endif
 
 
-call plug#begin()
+call plug#begin('~/.vim/plugged')
 Plug 'pangloss/vim-javascript'
 Plug 'mattn/emmet-vim'
 Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
