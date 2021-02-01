@@ -1,8 +1,3 @@
-
-
-
-
-
 "       HOW TO DO 90% OF WHAT PLUGINS DO (WITH JUST VIM)
 
 "                          Max Cantor
