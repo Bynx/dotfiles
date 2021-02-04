@@ -25,6 +25,7 @@ Plug 'takac/vim-hardtime'
 Plug 'moll/vim-node'
 Plug 'posva/vim-vue'
 Plug 'francoiscabrol/ranger.vim'
+Plug 'sainnhe/sonokai'
 call plug#end()
 
 
@@ -43,8 +44,17 @@ autocmd BufWritePre *.js,*.json,*.css,*.scss,*.less,*.graphql PrettierAsync
 
 
 
-" Colorscheme
-colorscheme desert
+" Important!!
+if has('termguicolors')
+  set termguicolors
+endif
+
+" The configuration options should be placed before `colorscheme sonokai`.
+let g:sonokai_style = 'andromeda'
+let g:sonokai_enable_italic = 1
+let g:sonokai_disable_italic_comment = 1
+
+colorscheme sonokai
 
 
 
