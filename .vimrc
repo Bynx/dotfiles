@@ -31,12 +31,6 @@ call plug#end()
 
 
 
-" Ranger.vim Settings
-let g:ranger_replace_netrw = 1 " open ranger when vim open a directory
-
-
-
-
 " Running prettier before saving async:
 let g:prettier#autoformat = 0
 autocmd BufWritePre *.js,*.json,*.css,*.scss,*.less,*.graphql PrettierAsync
