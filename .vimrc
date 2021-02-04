@@ -20,7 +20,7 @@ endif
 call plug#begin('~/.vim/plugged')
 Plug 'pangloss/vim-javascript'
 Plug 'mattn/emmet-vim'
-Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
+Plug 'prettier/vim-prettier', { 'do': 'npm install' }
 Plug 'takac/vim-hardtime'
 Plug 'moll/vim-node'
 Plug 'posva/vim-vue'

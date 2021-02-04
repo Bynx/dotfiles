@@ -124,7 +124,7 @@ alias serve="browser-sync start -s -f . --no-notify --host 127.0.0.1 --port 8080
 
 
 # Set up alias for dotfiles bare git repo
-alias config='/usr/bin/git --git-dir=/home/$USER/dotfiles --work-tree=/home/$USER'
+alias config='/usr/bin/git --git-dir=/home/$USER/.dotfiles --work-tree=/home/$USER'
 
 
 # Setting up nvm
