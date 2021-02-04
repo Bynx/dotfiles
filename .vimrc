@@ -23,7 +23,6 @@ Plug 'mattn/emmet-vim'
 Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
 Plug 'takac/vim-hardtime'
 Plug 'moll/vim-node'
-Plug 'vim-ruby/vim-ruby'
 Plug 'posva/vim-vue'
 Plug 'francoiscabrol/ranger.vim'
 call plug#end()
