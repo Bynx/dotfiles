@@ -55,8 +55,9 @@ colorscheme sonokai
 
 
 
-" Set fold method to indent
-set foldmethod=indent
+" Folding settings
+set foldmethod=indent					" faster than manual so ¯\_(ツ)_/¯
+set foldlevelstart=99					" start unfolded
 
 
 
