@@ -159,3 +159,9 @@ export PATH="$PATH:$HOME/.rvm/bin"
 # Set editor environment variable to vim
 export VISUAL=vim
 export EDITOR="$VISUAL"
+#-----------------------------------
+
+# Make sure colors work in tmux
+alias vim="TERM=\"xterm\" vim"
+#-----------------------------------
+
