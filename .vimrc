@@ -30,6 +30,10 @@ call plug#end()
 
 
 
+" Make sure backspace works
+set backspace=indent,eol,start
+
+
 
 " Running prettier before saving async:
 let g:prettier#autoformat = 0
