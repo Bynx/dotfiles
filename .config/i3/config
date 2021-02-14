@@ -216,14 +216,15 @@ bindsym XF86MonBrightnessDown exec light -U 5
 
 # Open apps on startup
 exec chromium
-exec spotify
-exec discord
 
 # Assign windows to workspaces
 for_window [class="Chromium"] move to workspace $ws1
 for_window [class="Blender"] move to workspace $ws8
 for_window [class="discord"] move to workspace $ws9
 for_window [class="Spotify"] move to workspace $ws10
+
+# Allow certain apps to be floating
+for_window [class="qjackctl"] floating enable
 
 # Set wallpaper (requires apt package 'feh')
 exec_always "feh --bg-scale /home/zach/Pictures/one-piece-wallpaper.jpg"
