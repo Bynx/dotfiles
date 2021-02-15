@@ -233,5 +233,8 @@ for_window [class="qjackctl"] floating enable
 # Run compton compositor with fading
 exec_always compton -f
 
+# Turn on numlock at start
+exec_always --no-startup-id numlockx on
+
 # Set wallpaper (requires package 'feh')
 exec_always "feh --bg-scale /home/zach/Pictures/tokyo-alley-wallpaper.jpg"
