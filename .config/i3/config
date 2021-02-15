@@ -229,8 +229,8 @@ for_window [class="Spotify"] move to workspace $ws10
 # Allow certain apps to be floating
 for_window [class="qjackctl"] floating enable
 
-# Set wallpaper (requires apt package 'feh')
-exec_always "feh --bg-scale /home/zach/Pictures/one-piece-wallpaper.jpg"
-
 # Run compton compositor with fading
 exec_always compton -f
+
+# Set wallpaper (requires apt package 'feh')
+exec_always "feh --bg-scale /home/zach/Pictures/tokyo-alley-wallpaper.jpg"
