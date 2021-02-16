@@ -230,11 +230,20 @@ for_window [class="Spotify"] move to workspace $ws10
 # Allow certain apps to be floating
 for_window [class="qjackctl"] floating enable
 
-# Run compton compositor with fading
+# Run compton compositor with fading - requires package 'compton'
 exec_always compton -f
+
+# Run copyq at startup - requires package 'copyq'
+exec_always copyq
+bindsym $mod+c exec copyq menu
 
 # Turn on numlock at start
 exec_always --no-startup-id numlockx on
 
 # Set wallpaper (requires package 'feh')
 exec_always "feh --bg-scale /home/zach/Pictures/tokyo-alley-wallpaper.jpg"
+
+# Gnome Screenshots
+bindsym --release Print exec gnome-screenshot -i
+# Click and drag screenshot
+bindsym --release $mod+Print exec gnome-screenshot -a
