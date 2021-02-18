@@ -26,7 +26,9 @@ Plug 'moll/vim-node'
 Plug 'posva/vim-vue'
 Plug 'francoiscabrol/ranger.vim'
 Plug 'sainnhe/sonokai'
+Plug 'vimwiki/vimwiki'
 call plug#end()
+
 
 
 
