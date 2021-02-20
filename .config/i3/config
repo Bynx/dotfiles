@@ -211,8 +211,12 @@ bar {
 # Alt-tab like behavior to switch between active workspaces
 bindsym Mod1+Tab workspace next
 
-# Lock Screen
-bindsym $mod+shift+x exec i3lock
+# Lock Screen (requires package i3lock)
+bindsym $mod+shift+x exec i3lock \
+	--color=333333ff --insidecolor=00000000 --ringcolor=ffffffff --line-uses-inside \
+	--keyhlcolor=ff6961ff --bshlcolor=d23c3dff --separatorcolor=00000000 \
+	--insidevercolor=77dd77ff --insidewrongcolor=ff6961ff \
+	--ringvercolor=ffffffff --ringwrongcolor=ffffffff 
 
 # Brightness buttons (requires package 'light')
 bindsym XF86MonBrightnessUp exec light -A 5
