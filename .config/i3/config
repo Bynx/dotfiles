@@ -222,9 +222,6 @@ bindsym $mod+shift+x exec i3lock \
 bindsym XF86MonBrightnessUp exec light -A 5
 bindsym XF86MonBrightnessDown exec light -U 5
 
-# Open apps on startup
-exec chromium
-
 # Assign windows to workspaces
 for_window [class="Chromium"] move to workspace $ws1
 for_window [class="Blender"] move to workspace $ws8
