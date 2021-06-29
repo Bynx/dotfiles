@@ -18,6 +18,7 @@ endif
 
 
 call plug#begin('~/.vim/plugged')
+Plug 'leafgarland/typescript-vim'
 Plug 'pangloss/vim-javascript'
 Plug 'mattn/emmet-vim'
 Plug 'prettier/vim-prettier', { 'do': 'npm install' }
@@ -27,9 +28,17 @@ Plug 'posva/vim-vue'
 Plug 'francoiscabrol/ranger.vim'
 Plug 'sainnhe/sonokai'
 Plug 'vimwiki/vimwiki'
+" ES2015 code snippets (Optional)
+Plug 'epilande/vim-es2015-snippets'
+" React code snippets
+Plug 'epilande/vim-react-snippets'
+" Ultisnips
+Plug 'SirVer/ultisnips'
 call plug#end()
 
 
+" Trigger configuration (Optional)
+let g:UltiSnipsExpandTrigger="<C-l>"
 
 
 " Make sure backspace works
